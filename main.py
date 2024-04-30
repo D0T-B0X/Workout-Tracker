@@ -49,5 +49,3 @@ for exercise in user_data["exercises"]:
     }
 
     sheety_requests = requests.post(url=sheety_endpoint, json=params_to_post, headers=sheety_headers)
-
-    print(sheety_requests.text)
